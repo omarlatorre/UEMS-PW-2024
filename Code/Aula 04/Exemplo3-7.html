@@ -1,0 +1,18 @@
+<html>
+<head>
+<title>Elementos de formulário HTML5</title>
+</head>
+<body>
+<form name=”formElementosHTML5”>
+<label for=”txtValorTotal”>Informe o valor total:</label>
+<input type=”number” name=”txtValorTotal” value=”5” step=”0.50” min=”1” max=”50” />
+<p><label for=”txtNivelSatisfacao”>Nível de satisfação:</label>
+<input type=”range” name=”txtNivelSatisfacao” value=”0” step=”1” min=”0” max=”10” /></p>
+<p><label for=”txtCor”>Selecione uma cor:</label>
+<input type=”color” name=”txtCor” value=”#0000FF”/></p>
+<p><label for=”txtTextoLongo”>Digite seu texto:</label></p>
+<p><textarea name=”txtTextoLongo” rows=”10” cols=”40”></textarea></p>
+<input type=”button” name=”btnGravar” value=”Gravar” onclick="gravar()" />
+</form>
+</body>
+</html>

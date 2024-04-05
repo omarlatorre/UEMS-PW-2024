@@ -1,0 +1,22 @@
+<html>
+<head>
+<title>Gráficos</title>
+</head>
+<body>
+<canvas id=”area_grafico” width=”500” height=”300”>
+</canvas>
+<script type=”text/javascript” charset=”utf-8”>
+var canvas = document.getElementById(“area_grafico”);
+if (canvas.getContext)
+{
+var context = canvas.getContext(“2d”);
+context.fillStyle = “rgb(255,0,0)”;
+context.fillRect (10, 10, 100, 100);
+context.fillStyle = “rgb(0,255,0)”;
+context.fillRect (120, 10, 100, 100);
+context.fillStyle = “rgb(0,0,255)”;
+context.fillRect (230, 10, 100, 100);
+}
+</script>
+</body>
+</html>
