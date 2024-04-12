@@ -1,0 +1,39 @@
+.titulo_pagina {font-family:times new roman;
+    font-size:30px;
+    font-weight:bold;
+    color:blue;
+    text-align:center;
+    margin-top:20px;
+    border: 2px solid red;
+    border-radius: 8px;
+    background-color:yellow;
+    padding-top:5px;
+    padding-bottom:5px
+}
+
+caption {font-family:helvetica;
+    font-size:20px;
+    font-style:italic;
+    color:red;
+    border-bottom: 2px solid;
+    background-color:cyan;
+    padding-top:10px;
+    padding-bottom:10px
+}
+
+th {font-size:18px;
+    font-weight:bold;
+    border-bottom:2px solid blue;
+    background-color:#E6E6E6
+}
+
+td {border-bottom:2px solid;
+    background-color:#E6E6E6
+}
+
+.texto_direita {text-align:right}    
+
+div {height:400px;    
+    width:100%;
+    background-color:#66CCCC
+}

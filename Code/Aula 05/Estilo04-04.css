@@ -1,0 +1,19 @@
+.titulo {font-family:times new roman;
+    font-size:30px;
+    font-weight:bold;
+    color:blue;
+    text-align:center;
+}
+    
+caption>i {font-family:times new roman;
+    font-size:20px;
+    font-weight:bold;
+    font-style:italic;
+    color:#8080ff;
+}
+    
+th>b {font-family:helvetica;
+    font-size:16px;
+    font-weight:bold;
+    text-align:center;
+}
