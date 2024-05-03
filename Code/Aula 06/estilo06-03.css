@@ -1,0 +1,43 @@
+.sombra-texto {font-family: "Times New Roman", Times, serif;
+    font-size: 48px;
+    font-weight: bold;
+    color: #FF8000;
+    text-align: center;
+    text-shadow: 3px 3px 3px #444444;
+}
+    
+.imagem {float: none;
+    margin-left: 80px;
+    margin-bottom: 20px;
+    border-top: 3px solid black;
+    border-right: 3px solid black;
+    border-bottom: 3px solid black;
+    border-left: 3px solid black;
+    width: 400px;
+    height: 300px;
+    cursor: pointer;
+    -moz-box-shadow: 3px 3px #000;
+    -webkit-box-shadow: 3px 3px #000;
+    box-shadow: 3px 3px #000;
+    -webkit-transition: -webkit-transform 0.4s ease-in-out;
+    -moz-transition: -moz-transform 0.4s ease-in-out;
+    transition: transform 0.4s ease-in-out;
+}
+    
+.imagem:hover {-webkit-transform-origin: top left;
+    -moz-transform-origin: top left;
+    -o-transform-origin: top left;
+    transform-origin: top left;
+    -webkit-transform: scale(2.0);
+    -moz-transform: scale(2.0);
+    -o-transform: scale(2.0);
+    transform: scale(2.0);
+    -webkit-box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
+    -moz-box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
+}
+    
+.legenda {font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    text-align:center;
+}

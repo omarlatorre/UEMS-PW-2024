@@ -1,0 +1,15 @@
+body {background-image: url(textura1.jpeg);
+    background-repeat: repeat;
+}
+    
+div {height:50px; 
+    width:400px;
+    text-align:center;
+}
+    
+.quadro1rgb {background-color:rgb(255,204,102);}
+.quadro2rgb {background-color:rgb(107,126,255);}
+.quadro1hsl {background-color:hsl(40,60%,80%);}
+.quadro2hsl {background-color:hsl(232,50%,80%);}
+.transparenciargb {background-color:rgba(107,126,255,0.5);}
+.transparenciahsl {background-color:hsla(232,50%,80%,0.5);}
